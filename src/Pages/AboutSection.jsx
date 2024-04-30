@@ -18,7 +18,7 @@ function AboutSection() {
             <h1 className="text-start font-bold text-xl">About Bitcoin</h1>
             <div className="mt-4 border-b-2">
                 <h1 className="font-bold text-md mt-2">What is Bitcoin?</h1>
-                <p className="border-b-0 py-3">Bitcoin's Price today is ${AboutBTC.current_price.toLocaleString(undefined, {maximumFractionDigits:2})} with a 24h trading volume of {AboutBTC.total_volume / 1000000000}B BTC is {AboutBTC.price_change_percentage_24h} in last 24 hrs.It is currently -7.70% from its 7 day all time high of ${AboutBTC.ath} and its 7 day all time low of ${AboutBTC.atl}.BTC has circulating supply of {AboutBTC.circulating_supply/1000000}M BTC and max Supply of {AboutBTC.max_supply/1000000.}M BTC.</p>
+                <p className="border-b-0 py-3">Bitcoin's Price today is ${AboutBTC.current_price} with a 24h trading volume of {AboutBTC.total_volume / 1000000000}B BTC is {AboutBTC.price_change_percentage_24h} in last 24 hrs.It is currently -7.70% from its 7 day all time high of ${AboutBTC.ath} and its 7 day all time low of ${AboutBTC.atl}.BTC has circulating supply of {AboutBTC.circulating_supply/1000000}M BTC and max Supply of {AboutBTC.max_supply/1000000.}M BTC.</p>
             </div>
             <div className="mt-4 border-b-2">
                 <h1 className="font-bold text-md mt-2">Lorem ipsum dolor sit.</h1>
