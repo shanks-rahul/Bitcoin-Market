@@ -6,7 +6,7 @@ function TokenomicsPage() {
             <h1 className="text-md font-bold my-3 flex items-center">Initial Distribution <span><FaInfo className=" size-3 text-gray-600 rounded-full ml-2 bg-gray-300" /></span></h1>
             <div className="flex items-center space-x-4">
                 <div className="w-32 h-32 rounded-full bg-white relative">
-                    <div className="pie-chart absolute top-0 left-0"></div>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.g3tcTWRoSCJi33iYmWH1eAAAAA&pid=Api&P=0&h=180" alt="" />
                 </div>
                 <div className="flex flex-col text-sm  text-black">
                     <div className="flex items-center space-x-2">
