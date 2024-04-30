@@ -10,11 +10,11 @@ function TokenomicsPage() {
                 </div>
                 <div className="flex flex-col text-sm  text-black">
                     <div className="flex items-center space-x-2">
-                        <p className="h-3 w-3 bg-orange-500 rounded-full"></p>
+                        <p className="h-3 w-3 bg-blue-500 rounded-full"></p>
                         <p>Crowdsale Investors:80%</p>
                     </div>
                     <div className="flex items-center space-x-2">
-                        <p className="h-3 w-3 bg-green-500 rounded-full"></p>
+                        <p className="h-3 w-3 bg-orange-500 rounded-full"></p>
                         <p>Foundation:20%</p>
                     </div>
 
