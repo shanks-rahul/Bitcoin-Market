@@ -122,7 +122,7 @@ function HomeLayout() {
                         <TrendingCoin />
                     </div>
                 </div>
-                <div className="bg-white p-4 flex w-[89vw] items-center m-auto mt-2 overflow-x-auto no-scrollbar">
+                <div className="bg-white p-4 flex w-[95vw] items-center m-auto mt-2 overflow-x-auto no-scrollbar">
                     <ul className="flex space-x-8 border-b-2 border-gray-400">
                         <li className=" hover:border-b-[3px] cursor-pointer border-blue-400 hover:text-blue-400">Overview</li>
                         <li className=" hover:border-b-[3px] cursor-pointer border-blue-400 hover:text-blue-400">Fundamentals</li>
@@ -133,18 +133,18 @@ function HomeLayout() {
                         <li className=" hover:border-b-[3px] cursor-pointer border-blue-400 hover:text-blue-400">Tokenomics</li>
                     </ul>
                 </div>
-                <div className="bg-white p-4 flex w-[89vw] items-center mx-auto ">
+                <div className="bg-white p-4 flex w-[95vw] items-center mx-auto ">
                     <FundamentalPage />
                 </div>
-                <div className="bg-white p-4 w-[89vw] flex mx-auto flex-col items-start mt-2">
+                <div className="bg-white p-4 w-[95vw] flex mx-auto flex-col items-start mt-2">
                     <h1 className="text-xl font-bold mb-3">Sentiment</h1>
                     <h1 className="text-md font-bold flex items-center ">Key Events <span><FaInfo className=" size-3 text-gray-600 rounded-full ml-2 bg-gray-300" /></span></h1>
                 </div>
-                <div className="bg-white p-4 w-[89vw] flex flex-col items-start mx-auto overflow-x-auto no-scrollbar">
+                <div className="bg-white p-4 w-[95vw] flex flex-col items-start mx-auto overflow-x-auto no-scrollbar">
 
                     <SentimentsPage />
                 </div>
-                <div className="bg-white p-4 flex w-[89vw] items-center mx-auto ">
+                <div className="bg-white p-4 flex w-[95vw] items-center mx-auto ">
                 <div className="w-[85vw] p-4 ">
                     <h1 className="text-md font-bold my-3 flex items-center">Analyst Estimates <span><FaInfo className=" size-3 text-gray-600 rounded-full ml-2 bg-gray-300" /></span></h1>
                     <div className="flex items-center space-x-4">
@@ -172,16 +172,16 @@ function HomeLayout() {
                 </div>
                 
 
-                <div className="bg-white m-auto w-[89vw] flex items-center overflow-x-auto no-scrollbar p-2 mt-[2rem]">
+                <div className="bg-white m-auto w-[95vw] flex items-center overflow-x-auto no-scrollbar p-2 mt-[2rem]">
 
                     <AboutSection />
                 </div>
                 
-                <div className="bg-white m-auto w-[89vw] flex items-center overflow-x-auto no-scrollbar p-2 mt-[2rem]">
+                <div className="bg-white m-auto w-[95vw] flex items-center overflow-x-auto no-scrollbar p-2 mt-[2rem]">
 
                     <TokenomicsPage />
                 </div>
-                <div className="bg-white p-4 flex w-[89vw] items-center mx-auto mt-2 ">
+                <div className="bg-white p-4 flex w-[95vw] items-center mx-auto mt-2 ">
                     <TeamPage />
                 </div>
                 <div>
