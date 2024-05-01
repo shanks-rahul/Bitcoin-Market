@@ -45,49 +45,49 @@ function FundamentalPage() {
             </div>
             <div className="mt-4 flex flex-col space-y-4">
                 <h1 className="text-xl font-bold flex items-center">Fundamentals <span><FaInfo className=" size-3 text-gray-600 rounded-full ml-2 bg-gray-300" /></span></h1>
-                <div className="flex flex-wrap justify-around">
+                <div className="flex flex-wrap space-x-3 justify-around">
                     <div className="flex flex-col space-y-2 text-sm font-semibold w-[20rem]">
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">Bitcoin Price</p>
-                            <p>${AboutBTC.current_price}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.current_price}</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">24h Low/24h High</p>
-                            <p>${AboutBTC.low_24h}/${AboutBTC.high_24h}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.low_24h}/${AboutBTC.high_24h}</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">7D Low/7D High</p>
-                            <p>${AboutBTC.low_24h}/${AboutBTC.high_24h}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.low_24h}/${AboutBTC.high_24h}</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">Trading Volume</p>
-                            <p>${AboutBTC.total_volume}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.total_volume}</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">Market Cap Rank</p>
-                            <p>#{AboutBTC.market_cap_rank}</p>
+                            <p className="w-[40%] text-center">#{AboutBTC.market_cap_rank}</p>
                         </div>
                     </div>
                     <div className="flex flex-col space-y-2 text-sm font-semibold w-[20rem]">
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">Market Cap</p>
-                            <p>${AboutBTC.market_cap}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.market_cap}</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">Market Cap Dominance</p>
-                            <p>10000</p>
+                            <p className="w-[40%] text-center">10000</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">Volume/Market Cap</p>
-                            <p>{num}</p>
+                            <p className="w-[40%] text-center">{num}</p>
                         </div>
                         <div className="flex border-b py-4 border-gray-400 justify-between">
                             <p className="text-gray-400">All Time High</p>
-                            <p>${AboutBTC.ath}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.ath}</p>
                         </div>
                         <div className="flex border-b py-4  border-gray-400 justify-between">
                             <p className="text-gray-400">All Time Low</p>
-                            <p>${AboutBTC.atl}</p>
+                            <p className="w-[40%] text-center">${AboutBTC.atl}</p>
                         </div>
                     </div>
                 </div>
